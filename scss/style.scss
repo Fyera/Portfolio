@@ -1,0 +1,67 @@
+body {
+  background: #2a2a63;
+}
+.navbar {
+  box-shadow: 2px 2px 5px #5ce1e6;
+  opacity: 0.9;
+  background-color: #2a2a63 !important;
+  .nav-link {
+    color: #5ce1e6 !important;
+  }
+  .nav-link.active {
+    color: #3292a6 !important;
+  }
+  a {
+    color: #5ce1e6 !important;
+  }
+}
+#header {
+  width: 100%;
+  min-height: 500px;
+  background: #2a2a63;
+  p {
+    color: #5ce1e6;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .btn:hover {
+    border-color: #5ce1e6;
+    background-color: #5ce1e6 !important;
+    .nav-link {
+      color: #2a2a63 !important;
+    }
+  }
+  .btn {
+    border-color: #5ce1e6;
+    .nav-link {
+      color: #5ce1e6 !important;
+    }
+  }
+}
+
+#contact {
+  background: #2a2a63;
+  color: #5ce1e6;
+  a {
+    color: #5ce1e6 !important;
+  }
+}
+
+#opleiding,
+#skills,
+#werk {
+  background: #fff;
+  p,
+  h5,
+  h4 {
+    color: #2a2a63;
+  }
+}
+.bg-success {
+  background-color: #5ce1e6 !important;
+}
+.btn-secondary {
+  background: #2a2a63 !important;
+  color: #5ce1e6 !important;
+}

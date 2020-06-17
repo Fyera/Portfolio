@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/8b7c26431d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bootstrap Theme</title>
+  </head>
+
+  <body id="home" data-spy="scroll" data-target="#main-nav">
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-md navbar-dark bg-dark fixed-top py-4"
+      id="main-nav"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand"
+          >Portfolio - Michaël Van Laer</a
+        >
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#opleiding" class="nav-link">Opleiding</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#werk" class="nav-link">Werkervaring</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home section -->
+    <header id="header" class="mb-5 py-5">
+      <div class="primary-overlay">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-lg-4 text-center">
+              <img
+                src="img/michaelvl.png"
+                alt="foto"
+                class="img-fluid m-3 rounded-circle"
+              />
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6 mt-5 text-center">
+              <p>
+                Ik ben een enthousiaste cursist bij de VDAB-opleiding
+                WEBONTWIKKELAAR. Deze opleiding loopt tot eind september 2020.
+                Ik ben in het verleden al in aanraking gekomen met programmeren
+                door enkele jaren informatica en digital arts and entertainment
+                te studeren. Via de VDAB ben ik dan terechtgekomen op
+                webontwikkelaar en heb hier echt mijn passie in gevonden. Vooral
+                het back-end gedeelte spreekt mij enorm aan. Ik puzzel graag en
+                krijg erg veel voldoening uit het schrijven van code die zo
+                compact mogelijk is en, natuurlijk, werkt zoals het moet.
+              </p>
+              <p>
+                Ik ben op zoek naar een nieuwe uitdaging in de digitale sector.
+              </p>
+              <button
+                class="btn btn-outline-light btn-lg text-white mt-3"
+                type="button"
+              >
+                <a
+                  href="img/Michaël Van Laer - Curriculum vitae.pdf"
+                  class="nav-link"
+                  target="_blank"
+                  >Mijn curriculum vitae</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- opleiding section -->
+    <section id="opleiding" class="my-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <img src="img/opleiding.png" alt="opleiding_logo" />
+            <h5>OPLEIDING</h5>
+          </div>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="text-dark">
+                  <p><strong> Web developer</strong> <br />VDAB - Obelisk</p>
+                </div>
+              </div>
+              <div class="col-md-3 text-right">
+                <button type="button" class="btn btn-secondary btn-sm mb-1">
+                  OPLEIDING LOPENDE
+                </button>
+                <br />
+                <p><em>Tot eind september 2020</em></p>
+              </div>
+              <div class="col-md-6 mt-4">
+                <div class="text-dark">
+                  <p>
+                    <strong>Digital Arts and Entertainment</strong><br />HOWEST
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 mt-4 text-right">
+                <p><em> 2013 - 2016 </em></p>
+              </div>
+              <div class="col-md-6 mt-4">
+                <div class="text-dark">
+                  <p><strong>Informatica</strong><br />KHL</p>
+                </div>
+              </div>
+              <div class="col-md-3 mt-4 text-right">
+                <p><em> 2008 - 2009 </em></p>
+              </div>
+              <div class="col-md-6 mt-4">
+                <div class="text-dark">
+                  <p>
+                    <strong>Industriële wetenschappen</strong><br />Vrije
+                    Technische School Leuven
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 mt-4 text-right">
+                <p><em> 2007 </em></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills section -->
+    <section id="skills" class="my-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <img src="img/skills.png" alt="skills_logo" />
+            <h5>SKILLS</h5>
+          </div>
+          <div class="col-md-7">
+            <h4>HTML 5</h4>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" style="width: 70%;"></div>
+            </div>
+            <h4>CSS</h4>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" style="width: 70%;"></div>
+            </div>
+            <h4>JavaScript</h4>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" style="width: 80%;"></div>
+            </div>
+            <h4>PHP</h4>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" style="width: 80%;"></div>
+            </div>
+            <h4>Mysql</h4>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" style="width: 80%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- werk section -->
+    <section id="werk" class="my-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <img src="img/werk.png" alt="werk_logo" />
+            <h5>Werk</h5>
+          </div>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="text-dark">
+                  <p><strong>Polyvalent medewerker</strong> <br />Delhaize</p>
+                </div>
+              </div>
+              <div class="col-md-3 text-right">
+                <br />
+                <p><em>2018 - 2019</em></p>
+              </div>
+              <div class="col-md-6 mt-4">
+                <div class="text-dark">
+                  <p><strong>Polyvalent medewerker</strong><br />Carrefour</p>
+                </div>
+              </div>
+              <div class="col-md-3 mt-4 text-right">
+                <p><em> 2017 - 2018 </em></p>
+              </div>
+              <div class="col-md-6 mt-4">
+                <div class="text-dark">
+                  <p><strong>Verkoops medewerker</strong><br />Fnac</p>
+                </div>
+              </div>
+              <div class="col-md-3 mt-4 text-right">
+                <p><em> 2016 - 2017 </em></p>
+              </div>
+              <div class="col-md-6 mt-4">
+                <div class="text-dark">
+                  <p>
+                    <strong>Begeleider (jobstudent)</strong><br />Logofijntje
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 mt-4 text-right">
+                <p><em> 2013 - 2016 </em></p>
+              </div>
+              <div class="col-md-6 mt-4">
+                <div class="text-dark">
+                  <p><strong>Verkoops medewerker</strong><br />Carrefour</p>
+                </div>
+              </div>
+              <div class="col-md-3 mt-4 text-right">
+                <p><em> 2010 - 2012 </em></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <h5>CONTACT</h5>
+          </div>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-6">
+                <p>
+                  E-MAIL <br />
+                  <a href="mailto:michaelvanlaer@gmail.com" class="email"
+                    ><strong>michaelvanlaer@gmail.com</strong>
+                  </a>
+                </p>
+                <p>TELEFOON <br /><strong>+(32) 475 39 65 85 </strong></p>
+                <p>WOONPLAATS <br /><strong>Leuven</strong></p>
+              </div>
+              <div class="col-md-6">
+                <a
+                  href="https://www.linkedin.com/in/micha%C3%ABl-van-laer-96b3441a4/"
+                  target="_blank"
+                  class="fa-stack fa-lg"
+                >
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x"></i>
+                </a>
+                <a
+                  href="https://www.facebook.com/michael.vanlaer.3/"
+                  target="_blank"
+                  class="fa-stack fa-lg"
+                >
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x"></i>
+                </a>
+                <a
+                  href="https://github.com/Fyera?tab=repositories"
+                  target="_blank"
+                  class="fa-stack fa-lg"
+                >
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="http://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="JS/myScript.js"></script>
+  </body>
+</html>
